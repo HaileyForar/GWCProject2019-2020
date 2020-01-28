@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class MainRunner {
 
+	//TODO make sure to get time delays working as to give a better
+	//story like environment
+	
 	public static void main(String[] args) 
 	{
 	  theBeginning();
@@ -20,6 +23,8 @@ public class MainRunner {
 		System.out.println("(4) With the Fae");
 		
 		int choice1 = intInput.nextInt();
+		
+		
 		
 		
 		
