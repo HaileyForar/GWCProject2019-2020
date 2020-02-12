@@ -107,7 +107,7 @@ public class ExploringTheUnknownDepthsStoryBoard {
 
 	//Filler in between a choice and the intro (mainly pertinent in the runner class)
 	public static void filler1() {
-		System.out.println("In looking through the porthole, you are faced with a couple decisions.");
+		System.out.println("In looking through the porthole, you see nothing but vast blue sea as far as you can see. You realize you are faced with two choices.");
 		System.out.println();
 		try {
 			Thread.sleep(5000);
@@ -164,7 +164,7 @@ public class ExploringTheUnknownDepthsStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 		
-		System.out.println("Are you ready?! The sub will leave without you if you don't get up on deck right now!!");
+		System.out.println("\"Are you ready?! The sub will leave without you if you don't get up on deck right now!!\"");
 	}
 	
 	//The second option of the first time the user has to make a decision in this story
@@ -212,7 +212,7 @@ public class ExploringTheUnknownDepthsStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 		
-		System.out.println("Are you ready?! The sub will leave without you if you don't get up on deck right now!!");
+		System.out.println("\"Are you ready?! The sub will leave without you if you don't get up on deck right now!!\"");
 	
 	}
 

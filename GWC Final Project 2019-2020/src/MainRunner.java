@@ -31,6 +31,7 @@ public class MainRunner {
 
 		else if (choice1 == 2) {
 			StoryBoard.introToTheAdventure();
+			ExploringTheUnknownDepthsRunner.intro();
 			// Exploring the Unknown Depths
 		}
 
