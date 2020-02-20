@@ -36,7 +36,7 @@ public class ThroughTheCosmosStoryBoard {
 
 		System.out.println("You seem to be laying on some sort of cot...no you're laying...vertically against the wall, in a very tight small room.");
 		System.out.println(
-				"The walls are white, the sleeping bag you are in, dark blye. Not much color in this small room, besides you're 'bed'.");
+				"The walls are white, the sleeping bag you are in, dark blue. Not much color in this small room, besides your 'bed'.");
 		System.out.println(
 				"'Strange. Why would that need to be the case?' you think, taking another look around, finally noticing the small circular window that was invisible unless you moved to see it.");
 		System.out.println();
@@ -127,6 +127,7 @@ public class ThroughTheCosmosStoryBoard {
 		}
 
 		System.out.println("...and possibly alter your chances of getting home.");
+		System.out.println();
 	}
 	
 	//The first option of the first time the user has to make a decision in this story

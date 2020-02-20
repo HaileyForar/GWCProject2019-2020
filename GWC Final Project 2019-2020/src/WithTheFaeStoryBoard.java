@@ -34,11 +34,9 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 
-		System.out.println("You seem to be laying on some sort of cot...no bunk bed, in a very tight small room.");
-		System.out.println(
-				"The walls are white, the sheets white. Not much color in this small room, the bed bolted both to the wall and the floor.");
-		System.out.println(
-				"'Strange. Why would that need to be the case?' you think, taking another look around, finally noticing the small circular window that was invisible unless you moved to see it.");
+		System.out.println("You seem to be laying on some sort of bed...made of moss?.");
+		System.out.println("There is color everywhere in this small room, flowers blooming, vines creeping up the walls..");
+		System.out.println("'Strange. Why would that need to be the case?' you think, taking another look around, then looking down at yourself. Tiny delicate hands, your legs shorter than you remember.");
 		System.out.println();
 
 		try {
@@ -49,9 +47,18 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 
-		System.out.println("Then it dawns on you...it's a porthole!");
-		System.out
-				.println("You stop, sitting up in the bed, narrowly missing bashing your head on the bed above yours.");
+		System.out.println("You look around yet again, then you notice a looking glass, hanging suspended from some flowering vines. You look at your reflection, the first thing you notice is that your ears are now...");
+		
+		try {
+			Thread.sleep(5000);
+		}
+
+		catch (InterruptedException e) {
+			Thread.currentThread().interrupt();
+		}
+		
+		System.out.println("You stop, sitting up in the bed, narrowly missing the low hanging canopy of wood and flowers over the bed.");
+		System.out.println("Your ears are pointed!");
 		System.out.println();
 
 		try {
@@ -74,7 +81,7 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 
-		System.out.println("A clang rings out as you bash your skull squarely on the top bunk.");
+		System.out.println("A deep thunk reverberates around the room as your skull comes into contact with one of the logs making up the canopy over your head..");
 		System.out.println();
 
 		try {
@@ -99,14 +106,14 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 
-		System.out.println("\"Exploring The Unknown Depths\"");
+		System.out.println("\"With the Fae\"");
 		System.out.print("you think outloud again, walking over the tiny space to look through the porthole.");
 		System.out.println();
 	}
 
 	//Filler in between a choice and the intro (mainly pertinent in the runner class)
 	public static void filler1() {
-		System.out.println("In looking through the porthole, you see nothing but vast blue sea as far as you can see. You realize you are faced with two choices.");
+		System.out.println("In looking at the looking glass more carefully, you see that your previous deduction was in fact correct. You realize you are faced with two choices.");
 		System.out.println();
 		try {
 			Thread.sleep(5000);
@@ -127,12 +134,13 @@ public class WithTheFaeStoryBoard {
 		}
 
 		System.out.println("...and possibly alter your chances of getting home.");
+		System.out.println();
 	}
 	
 	//The first option of the first time the user has to make a decision in this story
 	public static void choice1Snoop(){
-		System.out.println("Pulling back from the porthole, you turn to face the bunk bed, and frown.");
-		System.out.println("There really isn't anything in the room but those.");
+		System.out.println("Pulling back from the looking glass, you turn to face the moss bed, and frown.");
+		System.out.println("There really isn't anything in the room but that, and a small chest of drawers next to the bed on the other side.");
 		System.out.println();
 		try {
 			Thread.sleep(5000);
@@ -142,8 +150,8 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 		
-		System.out.println("Heaving a sigh, you went back to the bottom bunk that you had just been laying on...");
-		System.out.println("You lean down to have a look at the crumpled, thrown back sheets...");
+		System.out.println("Heaving a sigh, you go back to the bed that you had just been laying on...");
+		System.out.println("You lean down to have a look, nothing out of order, except a slight indent where you had just been laying");
 		System.out.println();
 		try {
 			Thread.sleep(5000);
@@ -153,7 +161,7 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 		
-		System.out.println("Just as you do this however, you hear the door burst open.");
+		System.out.println("Just as you do this however, you hear someone burst in.");
 		System.out.println();
 		try {
 			Thread.sleep(5000);
@@ -163,13 +171,13 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 		
-		System.out.println("\"Are you ready?! The sub will leave without you if you don't get up on deck right now!!\"");
+		System.out.println("\"What are you still doing in here?? We have to go assist Her Majesty!!\"");
 	}
 	
 	//The second option of the first time the user has to make a decision in this story
 	public static void choice2Leave() {
-		System.out.println("Pulling back from the porthole, you turn to face the door.");
-		System.out.println("You touch the handle...cool metal meets your warm palm");
+		System.out.println("Pulling back from the looking glass, you turn to face the door that seems to be simply a slab of wood.");
+		System.out.println("You touch the handle...rough warm bark scratching your hand.");
 		System.out.println();
 		try {
 			Thread.sleep(5000);
@@ -179,8 +187,8 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 		
-		System.out.println("Heaving a nervous breath, you turn the handle, swinging the heavy door on squeaky hinges open.");
-		System.out.println("A wall faces you, the same color as in the cabin, but in looking down the hallway you see that there are pictures every couple yards.");
+		System.out.println("Heaving a nervous breath, you push the door open, swinging the extremely light door open.");
+		System.out.println("A wall faces you, the same vines and flowers covering everything, as you look from left to right.");
 		System.out.println();
 		try {
 			Thread.sleep(5000);
@@ -190,7 +198,7 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 		
-		System.out.println("You step out, realizing that you are wearing comfortable sandals as the rubber soles squeak on the metal threshold");
+		System.out.println("You step out, realizing that you are wearing comfortable satiny slippers as soft fabric whisperes along the moss covered floor");
 		System.out.println("Starting down the hall, you head a particular way, seeing if you can find something worth while.");
 		System.out.println();
 		try {
@@ -201,7 +209,7 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 		
-		System.out.println("You hear footsteps pounding your way...");
+		System.out.println("You hear footsteps heading your way, but you couldn't tell exactly where they were coming from because they were so fine and quiet.");
 		System.out.println();
 		try {
 			Thread.sleep(5000);
@@ -211,7 +219,7 @@ public class WithTheFaeStoryBoard {
 			Thread.currentThread().interrupt();
 		}
 		
-		System.out.println("\"Are you ready?! The sub will leave without you if you don't get up on deck right now!!\"");
+		System.out.println("\"Are you finally ready?? Her Majesty is waiting!!\"");
 	
 	}
 

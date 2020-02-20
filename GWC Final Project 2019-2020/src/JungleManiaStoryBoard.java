@@ -127,6 +127,7 @@ public class JungleManiaStoryBoard {
 		}
 
 		System.out.println("...and possibly alter your chances of getting home.");
+		System.out.println();
 	}
 	
 	//The first option of the first time the user has to make a decision in this story

@@ -3,14 +3,14 @@ import java.util.concurrent.TimeUnit;
 
 public class MainRunner {
 
-	//TODO make sure to get time delays working as to give a better
-	//story like environment
-	
-	public static void main(String[] args) 
-	{
-	  theBeginning();
+	// TODO make sure to get time delays working as to give a better
+	// story like environment
+
+	public static void main(String[] args) {
+		theBeginning();
+//	  choiceOne();
 	}
-	
+
 	public static void theBeginning() {
 		StoryBoard.initialStory();
 		StoryBoard.writingOfTheBook1();
@@ -24,28 +24,54 @@ public class MainRunner {
 
 		int choice1 = intInput.nextInt();
 
+		// Through the Cosmos Story
 		if (choice1 == 1) {
+			// intro into the story overall
 			StoryBoard.introToTheAdventure();
-			// Through the Cosmos
+
+			// intro into the specific story the user chose
+			ThroughTheCosmosRunner.intro();
+
+			// running the first choice that the user faces within the story
+			ThroughTheCosmosRunner.choiceOne();
 		}
 
+		// Exploring the Unknown Depths Story
 		else if (choice1 == 2) {
+			// intro to the story overall
 			StoryBoard.introToTheAdventure();
+
+			// intro into the specific story the user chose
 			ExploringTheUnknownDepthsRunner.intro();
-			// Exploring the Unknown Depths
+
+			// running the first choice that the user faces within the story
+			ExploringTheUnknownDepthsRunner.choiceOne();
 		}
 
+		// Jungle Mania Story
 		else if (choice1 == 3) {
+			// intro to the story overall
 			StoryBoard.introToTheAdventure();
-			// Jungle Mania
+
+			// intro into the specific story the user chose
+			JungleManiaRunner.intro();
+
+			// running the first choice that the user faces within the story
+			JungleManiaRunner.choiceOne();
 		}
 
+		// With the Fae Story
 		else if (choice1 == 4) {
+			// intro to the story overall
 			StoryBoard.introToTheAdventure();
-			// With the Fae
+
+			// intro into the specific story the user chose
+			WithTheFaeRunner.intro();
+
+			// running the first choice that the user faces within the story
+			WithTheFaeRunner.choiceOne();
 		}
-		
-		
+
 	}
 
 }
